@@ -1,5 +1,5 @@
 import random
-
+import time
 
 words = ["bit","byte","internet","ssd"]
 hidden_word = random.choice(words)
@@ -40,5 +40,7 @@ while guess != hidden_word and wrong < 6:
     else:
         wrong += 1
         print("INCORRECT! Guesses left:",6 - wrong)
+    print("Your guess: ", guess)
   
 print("Hidden word was:", hidden_word)
+time.sleep(15)
