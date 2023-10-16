@@ -1,7 +1,7 @@
 import random
 import time
 
-words = ["bit","byte","internet","ssd"]
+words = ["bit","byte","internet","ssd","regret","sofa","return","manage","fight","hold","deep","test","trunk","hole","swing","monkey","door","sheep","random","outfit"]
 hidden_word = random.choice(words)
 wrong = 0
 
